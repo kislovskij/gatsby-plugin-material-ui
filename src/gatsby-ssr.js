@@ -3,8 +3,8 @@ import { renderToString } from 'react-dom/server'
 import { JssProvider, SheetsRegistry } from 'react-jss'
 import { create } from 'jss'
 import preset from 'jss-preset-default'
-import { MuiThemeProvider } from 'material-ui/styles'
-import createGenerateClassName from 'material-ui/styles/createGenerateClassName'
+import { MuiThemeProvider } from '@material-ui/core/styles'
+import createGenerateClassName from '@material-ui/core/styles/createGenerateClassName'
 import theme from './.cache/theme' // eslint-disable-line
 
 exports.replaceRenderer = ({
