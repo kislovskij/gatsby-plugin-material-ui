@@ -17,7 +17,7 @@ exports.sourceNodes = ({ store }, pluginOptions) => {
       module = module.split('\\').join('\\\\')
     }
   } else {
-    module = `const styles = require('material-ui/styles')
+    module = `const styles = require('@material-ui/core/styles')
 const theme = styles.createMuiTheme()
 module.exports = theme`
   }
