@@ -19,7 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "babel-runtime": "^6.26.0",
-    "material-ui": "^1.0.0-beta.9",
+    "@material-ui/core": "^1.0.0-rc.1",
     "react-jss": "^7.0.2"
   },
   "devDependencies": {
